@@ -233,10 +233,9 @@ function toggle() {
 
 window.onload = function () {
     grid = new Grid(100, 100, 5);
-    grid.drawRandom(100);
 
     ant = new Ant(50, 50, grid);
-    
+
     ant.draw();
 
 }
